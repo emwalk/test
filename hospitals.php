@@ -11,16 +11,17 @@ background-repeat: no-repeat;
 </style>
 <div>
 <?php
+  $url=parse_url(getenv("https://postgres.heroku.com/databases/guarded-lake-479"));
 
-//connect to the server
-$connect = mysql_connect("localhost","root","");
+    $server = $url["ec2-107-20-224-218.compute-1.amazonaws.com"];
+    $username = $url["lpaktrzokxazzl"];
+    $password = $url["rq2UyaGw_WOd_r5BYGWISS-801"];
+    $db = substr($url["C:\Users\Judes"],1);
 
-//connect to the datatbase
-mysql_select_db("medical");
-
-//query the database
-$query = mysql_query("SELECT * FROM hospitals");
-
+    mysql_connect($server, $username, $password);
+            
+    
+    mysql_select_db($db);
 echo"<body>
 <h1 align=center><u> HOSPITALS </u></h1>
 </body>";
