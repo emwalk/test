@@ -1,0 +1,134 @@
+<html>
+<head>
+<style>
+div
+{
+background:url(bridge1.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+h1 {font-size:100%;}
+h1 {font-family:"Arial Black";}
+h2 {font-size:125%;}
+h2 {font-family:"Times New Roman";}
+</style>
+</head>
+<body>
+<div>
+<br>
+<form method="post" action="link.php">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Latitude </h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="text" name="latitude">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Longitude </h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="text" name="longitude">
+<br>
+<br>
+<b>Select the desired range: </b>
+<p>	<input type="radio" name="distance" value="0" /> 0.5 km
+	<input type="radio" name="distance" value="1" /> 1 km
+	<input type="radio" name="distance" value="2" /> 2 km
+</p>
+<br><br>
+<p><b>Select one option:</b>
+	<br><br>
+	<input type="radio" name="database" value="education" /> Education
+	<input type="radio" name="database" value="emergency" /> Emergency
+	<input type="radio" name="database" value="food" /> Food
+	<input type="radio" name="database" value="household" /> Household 
+	<input type="radio" name="database" value="medical" /> Medical
+	<input type="radio" name="database" value="repairs" /> Repairs
+	<input type="radio" name="database" value="travelandtransport" /> Travel & Transport
+	</p>
+	
+<br><br>
+
+<p><b>Select one option:</b>
+	<br>
+	<h2 align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;Emergency: </h2>
+	<input type="radio" name="table" value="colleges" /> Colleges
+	<input type="radio" name="table" value="schools" /> Schools
+	<input type="radio" name="table" value="tutorials" /> Tutorials 
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<input type="radio" name="table" value="firebrigades" /> Fire Brigades
+	<input type="radio" name="table" value="lpggasleakage" /> LPG Gas Leakage
+	<input type="radio" name="table" value="policestations" /> Police Stations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<br><br>
+	<h2 align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Food:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Household: </h2>
+	
+	<input type="radio" name="table" value="chinese" /> Chinese
+	<input type="radio" name="table" value="italian" /> Italian
+	<input type="radio" name="table" value="punjabi" /> Punjabi
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<input type="radio" name="table" value="babysitters" /> Baby Sitters
+	<input type="radio" name="table" value="drycleaners" /> Dry Cleaners
+	<input type="radio" name="table" value="electricians" /> Electricians
+	<input type="radio" name="table" value="groceries" /> Groceries
+	
+	<br>
+	
+	<input type="radio" name="table" value="southindian" /> South Indian
+	<input type="radio" name="table" value="jain" /> Jain
+	<input type="radio" name="table" value="tiffinservices" /> Tiffin Services
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;
+	
+	<input type="radio" name="table" value="gasagencies" /> Gas Agencies
+	<input type="radio" name="table" value="refrigerators" /> Refrigerators
+	<input type="radio" name="table" value="televisions" /> Televisions
+	<input type="radio" name="table" value="washingmachines" /> Washing Machines
+	
+	<br><br>
+	
+	<h2 align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medical:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repairs: </h2>
+	<input type="radio" name="table" value="bloodbanks" /> Blood Banks
+	<input type="radio" name="table" value="chemists" /> Chemists
+	<input type="radio" name="table" value="hospitals" /> Hospitals
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<input type="radio" name="table" value="airconditioners" /> Air Conditioners
+	<input type="radio" name="table" value="automobiles" /> Automobiles
+	<input type="radio" name="table" value="cellphones" /> Cellphones
+	<input type="radio" name="table" value="laptops" /> Laptops
+	
+	<br><br>
+	
+	<h2 align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Travel & Transport:
+	 </h2>
+	<input type="radio" name="table" value="carrentals" /> Car Rentals
+	<input type="radio" name="table" value="packersandmovers" /> Packers & Movers
+	<input type="radio" name="table" value="taxiservices" /> Taxi Services
+	
+	</p>
+	
+<input type="submit">
+</form>
+</div>
+</body>
+</html>
+
+
+
